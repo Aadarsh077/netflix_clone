@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'netflix'  
+        DOCKER_IMAGE = 'azazel0001/netflix'  
         DOCKER_CREDENTIALS_ID = 'DockerHub'
     }
 
